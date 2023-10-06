@@ -1,0 +1,16 @@
+/**
+ * @copyright 한국기술교육대학교 컴퓨터공학부 객체지향개발론및실습 
+ * @version 2023년도 2학기
+ * @author 김상진
+ * @file DarkRoast.java
+ * 다크로스트 커피
+ */
+public class DarkRoast extends Beverage {
+	public DarkRoast(){
+		setDescription("다크로스트 커피");
+	}
+	@Override
+	public int cost() {
+		return 1200+super.cost();
+	}
+}
