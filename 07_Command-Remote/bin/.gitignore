@@ -1,0 +1,16 @@
+/CeilingFan$SPEED.class
+/CeilingFan.class
+/CeilingFanHighCommand.class
+/CeilingFanOffCommand.class
+/Command.class
+/NoCommand.class
+/RemoteControl.class
+/RemoteControlTest.class
+/RoomLight.class
+/RoomLightOffCommand.class
+/RoomLightOnCommand.class
+/Stero$InputType.class
+/Stero.class
+/SteroOffCommand.class
+/SteroOnWithCDCommand.class
+/SteroOnWithUSBCommand.class
