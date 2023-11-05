@@ -61,24 +61,29 @@ public class DrawShapeApp extends Application {
 	private void drawSquare(double x, double y) {
 		commandManager.excute(new DrawSquareCommand(centerPane, x, y));
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void drawCircle(double x, double y) {
 		commandManager.excute(new DrawCircleCommand(centerPane, x, y));
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void drawTriangle(double x, double y) {
 		commandManager.excute(new DrawTriangleCommand(centerPane, x, y));
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void changeColor() {
 		commandManager.excute(new ChangeColorCommand(centerPane, selectedShape));
+		redoButton.setDisable(true);
 	}
 	
 	private void deleteShape() {
 		commandManager.excute(new DeleteShapeCommand(centerPane, selectedShape));
+		redoButton.setDisable(true);
 	}
 	
 	private void selectShape(double x, double y, double screenX, double screenY) {

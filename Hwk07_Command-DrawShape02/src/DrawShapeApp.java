@@ -66,6 +66,7 @@ public class DrawShapeApp extends Application {
 		undoCommand.add(command);
 		redoCommand.clear();
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void drawCircle(double x, double y) {
@@ -74,6 +75,7 @@ public class DrawShapeApp extends Application {
 		undoCommand.add(command);
 		redoCommand.clear();
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void drawTriangle(double x, double y) {
@@ -82,6 +84,7 @@ public class DrawShapeApp extends Application {
 		undoCommand.add(command);
 		redoCommand.clear();
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void changeColor() {
@@ -89,6 +92,7 @@ public class DrawShapeApp extends Application {
 		command.excute();
 		undoCommand.add(command);
 		redoCommand.clear();
+		redoButton.setDisable(true);
 	}
 	
 	private void deleteShape() {
@@ -96,6 +100,7 @@ public class DrawShapeApp extends Application {
 		command.excute();
 		undoCommand.add(command);
 		redoCommand.clear();
+		redoButton.setDisable(true);
 	}
 	
 	private void selectShape(double x, double y, double screenX, double screenY) {

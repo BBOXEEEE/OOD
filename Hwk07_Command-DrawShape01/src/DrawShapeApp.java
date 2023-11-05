@@ -83,8 +83,9 @@ public class DrawShapeApp extends Application {
 		// redo clear
 		redoShape.clear();
 		redoDrawAction.clear();
-		// undoButton Activate
+		// undoButton Activate, redo Button Disable
 		undoButton.setDisable(false);
+		redoButton.setDisable(true);
 	}
 	
 	private void drawSquare(double x, double y) {
