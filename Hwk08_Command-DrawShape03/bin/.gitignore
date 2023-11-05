@@ -1,0 +1,7 @@
+/ChangeColorCommand.class
+/Command.class
+/DeleteShapeCommand.class
+/DrawCircleCommand.class
+/DrawSquareCommand.class
+/DrawTriangleCommand.class
+/CommandManager.class
